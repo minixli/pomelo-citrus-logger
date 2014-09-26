@@ -7,14 +7,14 @@ $:.push File.expand_path('../lib', __FILE__)
 require 'citrus-logger/version'
 
 Gem::Specification.new do |spec|
-  spec.name        = 'citrus-logger'
+  spec.name        = 'pomelo-citrus-logger'
   spec.version     = CitrusLogger::VERSION
   spec.platform    = Gem::Platform::RUBY
   spec.authors     = ['MinixLi']
   spec.email       = 'MinixLi1986@gmail.com'
-  spec.description = %q{Citrus Logger implemented in Ruby}
-  spec.summary     = %q{Citrus Logger implemented in Ruby}
-  spec.homepage    = 'http://citrus.inspawn.com'
+  spec.description = %q{pomelo-citrus-logger is a simple clone of pomelo-logger, this gem is empty now and it roles as a stub}
+  spec.summary     = %q{pomelo-logger clone written in Ruby using EventMachine}
+  spec.homepage    = 'https://github.com/minixli/pomelo-citrus-logger'
   spec.license     = 'MIT'
 
   spec.files         = `git ls-files`.split($/)
